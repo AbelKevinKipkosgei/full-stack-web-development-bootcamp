@@ -10,8 +10,8 @@ img {
 }
 
 div {
-  width: 50%;
-  margin-left: 25%;
+  width: 70%;
+  margin: auto;
 }
 
 h1 {
@@ -19,6 +19,7 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  text-transform: uppercase;
 }
 
 h1,
