@@ -3,6 +3,11 @@ body {
   color: white;
 }
 
+img {
+  border: 5px solid white;
+  height: 500px;
+}
+
 h1 {
   font-family: "Libre Baskerville", serif;
   font-optical-sizing: auto;
