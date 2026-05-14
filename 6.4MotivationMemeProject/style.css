@@ -1,3 +1,8 @@
+body {
+  background-color: black;
+  color: white;
+}
+
 h1 {
   font-family: "Libre Baskerville", serif;
   font-optical-sizing: auto;
