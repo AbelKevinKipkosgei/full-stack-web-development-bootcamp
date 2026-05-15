@@ -20,3 +20,7 @@ p {
 #outer-box {
   border: 10px solid purple;
 }
+
+div.box.inner-box {
+  padding: 0;
+}
