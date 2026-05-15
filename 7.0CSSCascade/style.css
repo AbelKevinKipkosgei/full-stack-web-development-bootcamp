@@ -13,4 +13,6 @@ p {
 
 .white-text {
   color: white;
+  background-color: red;
+  padding: 10px;
 }
