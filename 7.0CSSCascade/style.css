@@ -24,3 +24,7 @@ p {
 div.box.inner-box {
   padding: 0;
 }
+
+div.box {
+  padding: 0;
+}
