@@ -22,10 +22,7 @@ p {
   padding: 10px;
 }
 
-div.box.inner-box {
-  padding: 0;
-}
-
+div.box.inner-box,
 div.box {
   padding: 0;
 }
