@@ -5,6 +5,9 @@
     <title>CSS Flag Project</title>
     <style>
       /* Write your CSS Code here */
+      p {
+        margin: 0;
+      }
       .flag {
         position: relative;
         background-color: rgb(206, 17, 38);
@@ -12,17 +15,22 @@
         height: 600px;
       }
       div.flag > div {
-        position: absolute;
+        position: relative;
         top: 150px;
         background-color: rgb(0, 40, 104);
         height: 300px;
         width: 900px;
       }
-      .flag > div > div p {
+      /* .flag div p {
+        position: relative;
+        margin: 0;
+        top: 50px;
+        left: 350px;
         height: 200px;
         width: 200px;
         background-color: rgb(255, 255, 255);
-      }
+        border-radius: 50%;
+      } */
     </style>
   </head>
 
