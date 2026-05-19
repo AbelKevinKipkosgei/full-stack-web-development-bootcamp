@@ -63,6 +63,11 @@ footer {
 @media (min-width: 650px) and (max-width: 1200px) {
   body {
     background-color: powderblue;
+    margin: 10px;
+  }
+
+  h1 {
+    font-size: 3rem;
   }
 }
 @media (min-width: 1201px) and (max-width: 1600px) {
