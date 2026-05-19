@@ -19,3 +19,12 @@ footer {
   color: midnightblue;
 }
 
+.left {
+  display: inline-block;
+  width: 50%;
+}
+
+.right {
+  float: right;
+  width: 50%;
+}
