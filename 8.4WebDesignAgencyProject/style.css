@@ -76,7 +76,7 @@ footer {
 }
 @media (min-width: 1201px) and (max-width: 1600px) {
   body {
-    background-color: limegreen;
+    background-color: rgb(180, 180, 180);
   }
 }
 @media (min-width: 1601px) {
