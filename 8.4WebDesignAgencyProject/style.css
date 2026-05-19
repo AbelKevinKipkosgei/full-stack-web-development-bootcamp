@@ -30,6 +30,7 @@ footer {
 }
 
 .tile-image {
+  margin-right: 50px;
   float: left;
   width: 300px;
 }
