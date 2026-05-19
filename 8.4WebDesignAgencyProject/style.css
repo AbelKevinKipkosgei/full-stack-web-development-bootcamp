@@ -34,3 +34,29 @@ footer {
   float: left;
   width: 300px;
 }
+
+@media (min-width: 100px) and (max-width: 480px) {
+  body {
+    background-color: lightsalmon;
+    margin: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 1200px) {
+  body {
+    background-color: powderblue;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1600px) {
+  body {
+    background-color: limegreen;
+  }
+}
+@media (min-width: 1601px) {
+  body {
+    background-color: seagreen;
+  }
+}
