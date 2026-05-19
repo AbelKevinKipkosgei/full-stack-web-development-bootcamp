@@ -55,6 +55,10 @@ footer {
     float: none;
     width: 300px;
   }
+
+  .tile-image {
+    margin: 0px;
+  }
 }
 @media (min-width: 481px) and (max-width: 1200px) {
   body {
