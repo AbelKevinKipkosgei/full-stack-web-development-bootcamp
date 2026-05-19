@@ -79,4 +79,20 @@ footer {
   body {
     background-color: seagreen;
   }
+
+  .left {
+    display: inline-block;
+    width: 45%;
+  }
+
+  .right {
+    float: right;
+    width: 45%;
+  }
+
+  .tile-image {
+    margin-right: 50px;
+    float: left;
+    width: 400px;
+  }
 }
