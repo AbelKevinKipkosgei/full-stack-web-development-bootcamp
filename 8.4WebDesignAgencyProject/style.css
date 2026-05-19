@@ -44,6 +44,17 @@ footer {
   h1 {
     font-size: 2rem;
   }
+
+  .left {
+    display: block;
+    width: 300px;
+  }
+
+  .right {
+    display: block;
+    float: none;
+    width: 300px;
+  }
 }
 @media (min-width: 481px) and (max-width: 1200px) {
   body {
