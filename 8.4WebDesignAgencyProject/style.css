@@ -21,12 +21,12 @@ footer {
 
 .left {
   display: inline-block;
-  width: 50%;
+  width: 45%;
 }
 
 .right {
   float: right;
-  width: 50%;
+  width: 45%;
 }
 
 .tile-image {
