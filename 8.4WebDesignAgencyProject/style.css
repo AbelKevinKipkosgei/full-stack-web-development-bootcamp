@@ -35,7 +35,7 @@ footer {
   width: 300px;
 }
 
-@media (min-width: 100px) and (max-width: 480px) {
+@media (min-width: 100px) and (max-width: 649px) {
   body {
     background-color: lightsalmon;
     margin: 10px;
@@ -60,7 +60,7 @@ footer {
     margin: 0px;
   }
 }
-@media (min-width: 481px) and (max-width: 1200px) {
+@media (min-width: 650px) and (max-width: 1200px) {
   body {
     background-color: powderblue;
   }
