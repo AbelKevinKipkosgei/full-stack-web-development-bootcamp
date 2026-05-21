@@ -49,16 +49,26 @@
         justify-content: center;
       }
 
+      .plan-button {
+        border: none;
+        background-color: #ff6600;
+        padding: 5px 10px;
+        border-radius: 5px;
+      }
+
       /* Hint: What can you do with a media query and flexbox? */
       @media (max-width: 1250px) {
         .pricing-container {
           display: flex;
           flex-direction: column;
+          justify-content: flex-start;
+          flex: 0 1 0;
         }
 
         .pricing-plan {
           display: flex;
           flex-direction: column;
+          justify-content: center;
           gap: 1rem;
           min-width: 300px;
         }
