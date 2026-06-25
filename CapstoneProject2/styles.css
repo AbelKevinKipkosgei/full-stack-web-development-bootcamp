@@ -9,16 +9,17 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .navbar ul {
   display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   gap: 1rem;
   margin: 0;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #31363f;
 }
