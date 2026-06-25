@@ -40,6 +40,11 @@ section#hero .hero-greetings {
   gap: 1rem;
 }
 
+section#hero .hero-photo {
+  display: flex;
+  justify-content: center;
+}
+
 section#hero .hero-photo img {
   height: 200px;
   width: 200px;
