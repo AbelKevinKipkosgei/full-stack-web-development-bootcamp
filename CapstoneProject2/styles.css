@@ -10,7 +10,6 @@ body {
 }
 
 .navbar ul {
-  background-color: red;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
