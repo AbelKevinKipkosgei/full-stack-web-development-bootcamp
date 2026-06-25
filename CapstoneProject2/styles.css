@@ -10,16 +10,38 @@ body {
 }
 
 .navbar ul {
+  background-color: red;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   list-style: none;
   gap: 1rem;
-  margin: 0;
-  padding: 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0;
 }
 
 a {
   text-decoration: none;
   color: #31363f;
+}
+
+section#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section#hero .cta-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+section#hero .hero-photo img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
 }
