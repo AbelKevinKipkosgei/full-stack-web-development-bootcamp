@@ -9,6 +9,11 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 
+.navbar {
+  border: 1px solid #31363f;
+  border-radius: 4px;
+}
+
 .navbar ul {
   display: flex;
   justify-content: space-evenly;
