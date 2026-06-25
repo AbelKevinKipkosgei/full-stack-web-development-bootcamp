@@ -117,6 +117,10 @@ section#work-experience h2 {
   margin-bottom: 1rem;
 }
 
+section#work-experience ul {
+  padding-left: 0;
+}
+
 section#work-experience ul li {
   list-style: none;
   border: 1px solid #31363f;
