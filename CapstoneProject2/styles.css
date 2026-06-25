@@ -12,6 +12,8 @@ body {
 .navbar {
   border: 1px solid #31363f;
   border-radius: 4px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .navbar ul {
@@ -94,6 +96,13 @@ section#hero .cta-buttons button {
   padding-bottom: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+section div.project {
+  border: 1px solid #31363f;
+  border-radius: 4px;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 section#projects h2 {
