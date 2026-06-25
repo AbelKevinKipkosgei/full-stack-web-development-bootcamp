@@ -116,3 +116,11 @@ section#work-experience h2 {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
+section#work-experience ul li {
+  list-style: none;
+  border: 1px solid #31363f;
+  border-radius: 4px;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
