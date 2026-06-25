@@ -110,3 +110,9 @@ section#projects h2 {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
+section#work-experience h2 {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
