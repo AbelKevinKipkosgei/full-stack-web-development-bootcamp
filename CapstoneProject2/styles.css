@@ -8,3 +8,9 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
