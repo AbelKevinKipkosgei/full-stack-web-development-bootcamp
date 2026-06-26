@@ -151,3 +151,23 @@ section#skills div.skills-container {
   display: grid;
   grid-template-rows: repeat(4, auto);
 }
+
+section#skills div.skills-container .frontend {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+section#skills div.skills-container .backend {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+section#skills div.skills-container .database-orm {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+section#skills div.skills-container .tools {
+  display: flex;
+  flex-flow: row wrap;
+}
