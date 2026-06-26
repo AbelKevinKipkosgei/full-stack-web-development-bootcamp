@@ -30,7 +30,8 @@ body {
 
 a {
   text-decoration: none;
-  color: #31363f;
+  color: #76ABAE;
+  font-weight: 500;
 }
 
 section#hero {
@@ -205,7 +206,7 @@ section#skills div.skills-container div.frontend div.icon-card div.icon-info img
   height: auto;
 }
 
-section#about-me,
+section#about-me h2,
 section#certifications h2 {
   text-align: center;
   margin: 1rem 0 1rem 0;
