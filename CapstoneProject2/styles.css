@@ -170,24 +170,35 @@ section#skills div.skills-container .frontend,
 
 section#skills div.skills-container .icon-card {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
   border: 1px solid #31363f;
   border-radius: 4px;
   margin: 0rem;
-  height: 100px;
-  max-height: 100px;
-  width: 100px;
-  max-width: 100px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: auto;
+  width: 100%;
+}
+
+section#skills div.skills-container .icon-card .card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: auto;
 }
 
 section#skills div.skills-container .icon-card p {
+  text-align: center;
   margin: 0;
 }
 
-section#skills div.skills-container .icon-card img {
-  width: 100%;
+section#skills div.skills-container div.frontend div.icon-card div.icon-info img {
+  width: 50px;
   max-width: 70px;
   height: auto;
 }
