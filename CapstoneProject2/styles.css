@@ -146,3 +146,8 @@ section#education ul li {
   padding: 0.5rem;
   margin-top: 0.5rem;
 }
+
+section#skills div.skills-container {
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+}
