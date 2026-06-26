@@ -205,7 +205,12 @@ section#skills div.skills-container div.frontend div.icon-card div.icon-info img
   height: auto;
 }
 
-section#about-me h2 {
+section#about-me,
+section#certifications h2 {
   text-align: center;
   margin: 1rem 0 1rem 0;
+}
+
+section#certifications ul {
+  padding-left: 1rem;
 }
