@@ -215,3 +215,16 @@ section#certifications h2 {
 section#certifications ul {
   padding-left: 1rem;
 }
+
+section#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section#contact a {
+  background-color: rgb(219, 219, 219);
+  border: 2px solid #31363F;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+}
