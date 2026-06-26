@@ -152,22 +152,54 @@ section#skills div.skills-container {
   grid-template-rows: repeat(4, auto);
 }
 
+section#skills div.skills-container h2 {
+  margin: 1rem, 0, 1rem, 0
+}
+
+section#skills div.skills-container h3 {
+  margin: 0;
+}
+
 section#skills div.skills-container .frontend {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
 }
 
 section#skills div.skills-container .backend {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
 }
 
 section#skills div.skills-container .database-orm {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
 }
 
 section#skills div.skills-container .tools {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
+}
+
+section#skills div.skills-container .icon-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #31363f;
+  border-radius: 4px;
+  margin: 0rem;
+  height: 100px;
+  max-height: 100px;
+  width: 100px;
+  max-width: 100px;
+}
+
+section#skills div.skills-container .icon-card p {
+  margin: 0;
+}
+
+section#skills div.skills-container .icon-card img {
+  width: 100%;
+  max-width: 70px;
+  height: auto;
 }
