@@ -160,22 +160,10 @@ section#skills div.skills-container h3 {
   margin: 0;
 }
 
-section#skills div.skills-container .frontend {
-  display: flex;
-  flex-direction: column;
-}
-
-section#skills div.skills-container .backend {
-  display: flex;
-  flex-direction: column;
-}
-
-section#skills div.skills-container .database-orm {
-  display: flex;
-  flex-direction: column;
-}
-
-section#skills div.skills-container .tools {
+section#skills div.skills-container .frontend,
+.backend,
+.database-orm,
+.tools {
   display: flex;
   flex-direction: column;
 }
