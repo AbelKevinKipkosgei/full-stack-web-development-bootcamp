@@ -128,3 +128,21 @@ section#work-experience ul li {
   padding: 0.5rem;
   margin-top: 0.5rem;
 }
+
+section#education h2 {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+section#education ul {
+  padding-left: 0;
+}
+
+section#education ul li {
+  list-style: none;
+  border: 1px solid #31363f;
+  border-radius: 4px;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
