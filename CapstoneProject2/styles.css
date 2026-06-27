@@ -2,6 +2,8 @@ body {
   font-family: "Inter", sans-serif;
   background-color: #eeeeee;
   color: #31363f;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 .page {
