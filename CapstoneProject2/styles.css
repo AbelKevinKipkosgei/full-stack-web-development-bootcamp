@@ -230,6 +230,23 @@ section#contact a {
   padding: 0.5rem 1rem;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  border-top: 1px solid #31363F;
+}
+
+footer .social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0 0 0;
+}
+
 footer .social a img {
   width: 50px;
   max-width: 100%;
