@@ -2,8 +2,8 @@
 Each bottle costs $1.5 */
 
 function getMilk(money) {
-  let cost = 1.5;
-  let bottles = Math.floor(money / cost);
+  let costPerBottle = 1.5;
+  let noOfBottles = Math.floor(money / costPerBottle);
 
   console.log("leaveHouse");
   console.log("moveRight");
@@ -23,7 +23,9 @@ function getMilk(money) {
   console.log("moveLeft");
   console.log("moveLeft");
   console.log("enterHouse");
-  console.log("For $" + money + ", you get " + bottles + " bottles of milk.");
+  console.log(
+    "For $" + money + ", you get " + noOfBottles + " bottles of milk.",
+  );
 }
 
-getMilk(45);
+getMilk(5);
